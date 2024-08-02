@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1" parallel="classes">
+    <classes>
+      <class name="TestNg1.BikeFZ"/>
+      <class name="TestNg2.ShoesPuma"/>
+      <class name="TestNg1.BikeAvenger"/>
+      <class name="TestNg2.ShoesNike"/>
+      <class name="TestNg1.BikeUnicorn"/>
+      <class name="TestNg1.BikeBMW"/>
+      <class name="TestNg2.ShoesBata"/>
+      <class name="TestNg2.ShoesCampus"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2" parallel="classes">
+    <classes>
+      <class name="TestNg1.BikeFZ"/>
+      <class name="TestNg2.ShoesPuma"/>
+      <class name="TestNg1.BikeAvenger"/>
+      <class name="TestNg2.ShoesNike"/>
+      <class name="TestNg1.BikeUnicorn"/>
+      <class name="TestNg1.BikeBMW"/>
+      <class name="TestNg2.ShoesBata"/>
+      <class name="TestNg2.ShoesCampus"/>
+    </classes>
+ </test>
+</suite> <!-- Suite -->
